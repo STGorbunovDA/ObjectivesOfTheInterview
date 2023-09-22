@@ -60,10 +60,12 @@ Cписок задач:
 
 3.2. Сохранение XML [SaveFile.SaveXml](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SaveFile.cs) имплементируя [ISaveFile](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/ISaveFile.cs)
 
-4.0 ![picture for Offset Converter](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/1.png)
+4.0 Интерфейс приложения:
 
- View:[JsonCsvConnectionView](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Views/JsonCsvConnectionView.xaml)
- ViewModels [JsonCsvConnectionViewModel](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/ViewModels/JsonCsvConnectionViewModel.cs)
+![picture for Offset Converter](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/1.png)
+
+ View: [JsonCsvConnectionView](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Views/JsonCsvConnectionView.xaml)
+ ViewModels: [JsonCsvConnectionViewModel](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/ViewModels/JsonCsvConnectionViewModel.cs)
 
 
 **Результат**
