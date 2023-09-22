@@ -54,7 +54,7 @@ Cписок задач:
 
 2.1.  Произвожу создание словаря типов из TypeInfos.json [GetTypeInfo.GetTypeInfoDictionary](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/GetTypeInfo.cs) имплементируя [IGetTypeInfo](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGetTypeInfo.cs)
 
-2.2. Здесь происходит вычисление смещений для каждого тега [Calculate.CalculateOffsets](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Calculate.cs). Так-же создал костыль для возвращения типа значения [SizeOf.DataTypeInBytes](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SizeOf.cs)
+2.2. Здесь происходит вычисление смещений для каждого тега [Calculate.CalculateOffsets](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Calculate.cs). Так-же создал костыль для возвращения типа значения в байтах [SizeOf.DataTypeInBytes](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SizeOf.cs)
 
 3.1. Генерация XML-выходных данных [Generate.GenerateXmlOutput](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Generate.cs) имплементируя [IGenerate](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGenerate.cs)
 
