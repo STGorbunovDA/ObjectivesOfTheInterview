@@ -1,0 +1,39 @@
+﻿<Window x:Class="ConnTest.Views.JsonCsvConnectionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:ConnTest.ViewModels" 
+        mc:Ignorable="d"
+        Title="Тестовое задание" 
+        Height="450" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent">
+    <Window.DataContext>
+        <viewModel:JsonCsvConnectionViewModel/>
+    </Window.DataContext>
+    <Border >
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/jsoncsv.png"
+                Stretch="Fill"/>
+        </Border.Background>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="1" Orientation="Horizontal"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+                <Button x:Name="btnAddJsonCsv"
+                         Command="{Binding AddJsonCsv}"
+                         Content="Добавить файлы"
+                         Margin ="0,0,0,0"
+                         Style="{StaticResource menuButtonStyleAll}" 
+                         HorizontalAlignment="Center"    
+                         Cursor="Hand"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
