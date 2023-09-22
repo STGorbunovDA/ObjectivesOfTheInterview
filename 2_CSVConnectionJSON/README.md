@@ -58,7 +58,7 @@ Cписок задач:
 
 3.1. Генерация XML-выходных данных [Generate.GenerateXmlOutput](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Generate.cs) имплементируя [IGenerate](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGenerate.cs)
 
-3.2. Сохранение XML [SaveFile.SaveXml](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SaveFile.cs)
+3.2. Сохранение XML [SaveFile.SaveXml](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SaveFile.cs) имплементируя [ISaveFile](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/ISaveFile.cs)
 
 4.0 ![picture for Offset Converter](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/1.png)
 
