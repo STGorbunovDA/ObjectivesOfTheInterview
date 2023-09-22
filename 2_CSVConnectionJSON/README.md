@@ -65,3 +65,6 @@ Cписок задач:
  View:[JsonCsvConnectionView](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Views/JsonCsvConnectionView.xaml)
  ViewModels [JsonCsvConnectionViewModel](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/ViewModels/JsonCsvConnectionViewModel.cs)
 
+
+**Результат**
+[result](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/result.xml)
