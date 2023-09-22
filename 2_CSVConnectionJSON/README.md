@@ -50,17 +50,17 @@ Cписок задач:
 
 **Выполнение**
 
-1. За загрузку отвечает [GetFiles] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/GetFiles.cs) имплементируя [IGetFiles] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGetFiles.cs)
+1.0 За загрузку отвечает [GetFiles](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/GetFiles.cs) имплементируя [IGetFiles](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGetFiles.cs)
 
-2.1.  Произвожу создание словаря типов из TypeInfos.json [GetTypeInfo.GetTypeInfoDictionary] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/GetTypeInfo.cs) имплементируя [IGetTypeInfo] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGetTypeInfo.cs)
+2.1.  Произвожу создание словаря типов из TypeInfos.json [GetTypeInfo.GetTypeInfoDictionary](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/GetTypeInfo.cs) имплементируя [IGetTypeInfo](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGetTypeInfo.cs)
 
-2.2. Здесь происходит вычисление смещений для каждого тега [Calculate.CalculateOffsets] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Calculate.cs). Так-же создал костыль для возвращения типа значения [SizeOf.DataTypeInBytes] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SizeOf.cs)
+2.2. Здесь происходит вычисление смещений для каждого тега [Calculate.CalculateOffsets](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Calculate.cs). Так-же создал костыль для возвращения типа значения [SizeOf.DataTypeInBytes](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SizeOf.cs)
 
-3.1. Генерация XML-выходных данных [Generate.GenerateXmlOutput] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Generate.cs) имплементируя [IGenerate] (https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGenerate.cs)
+3.1. Генерация XML-выходных данных [Generate.GenerateXmlOutput](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Generate.cs) имплементируя [IGenerate](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/Interfaces/IGenerate.cs)
 
 3.2. Сохранение XML [SaveFile.SaveXml](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Infrastructure/SaveFile.cs)
 
-4. ![picture for Offset Converter](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/1.png)
+4.0 ![picture for Offset Converter](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/source/1.png)
 
  View:[JsonCsvConnectionView](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/Views/JsonCsvConnectionView.xaml)
  ViewModels [JsonCsvConnectionViewModel](https://github.com/STGorbunovDA/ObjectivesOfTheInterview/blob/main/2_CSVConnectionJSON/ConnTest/ViewModels/JsonCsvConnectionViewModel.cs)
